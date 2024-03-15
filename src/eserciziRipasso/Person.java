@@ -1,3 +1,5 @@
+package eserciziRipasso;
+
 public class Person {
 
     private String nome;

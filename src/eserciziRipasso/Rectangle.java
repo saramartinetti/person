@@ -1,3 +1,5 @@
+package eserciziRipasso;
+
 public class Rectangle {
 
     private int larghezza;

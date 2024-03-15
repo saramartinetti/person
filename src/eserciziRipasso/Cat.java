@@ -1,3 +1,5 @@
+package eserciziRipasso;
+
 public class Cat {
 
     private String nome;

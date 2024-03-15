@@ -1,3 +1,5 @@
+package eserciziRipasso;
+
 public class Es2_Cat {
     public static void main(String[] args) {
 
