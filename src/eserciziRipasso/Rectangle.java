@@ -1,30 +1,29 @@
 public class Rectangle {
-    
-    private int Larghezza;
-    private String Altezza;
+
+    private int larghezza;
+    private String altezza;
 
     public Rectangle(int larghezza, String altezza) {
-        Larghezza = larghezza;
-        Altezza = altezza;
+        larghezza = larghezza;
+        altezza = altezza;
     }
 
     public Rectangle(int i, int j) {
     }
 
     public int getLarghezza() {
-        return Larghezza;
+        return larghezza;
     }
 
     public String getAltezza() {
-        return Altezza;
+        return altezza;
     }
 
     public void setLarghezza(int larghezza) {
-        Larghezza = larghezza;
+        larghezza = larghezza;
     }
 
     public void setAltezza(String altezza) {
-        Altezza = altezza;
+        altezza = altezza;
     }
-    
 }
