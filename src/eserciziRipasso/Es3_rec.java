@@ -5,5 +5,8 @@ public class Es3_rec {
         
         Rectangle rec = new Rectangle(8, 2);
         System.out.println();
-    }
+
+    System.out.println("area rettangolo " + rec.getArea());
+    System.out.println("perimetro " + rec.getPerimetro());
+}
 }

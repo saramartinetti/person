@@ -2,30 +2,33 @@ package eserciziRipasso;
 
 public class Rectangle {
 
-    private int larghezza;
-    private String altezza;
+    private double larghezza;
+    private double altezza;
 
-    public Rectangle(int larghezza, String altezza) {
-        larghezza = larghezza;
-        altezza = altezza;
+    public Rectangle(double larghezza, double altezza) {
+        this.larghezza = larghezza;
+        this.altezza = altezza;
     }
 
-    public Rectangle(int i, int j) {
-    }
-
-    public int getLarghezza() {
+    public double getLarghezza() {
         return larghezza;
     }
 
-    public String getAltezza() {
+    public double getAltezza() {
         return altezza;
     }
 
-    public void setLarghezza(int larghezza) {
-        larghezza = larghezza;
+    public void setLarghezza(double larghezza) {
+        this.larghezza = larghezza;
     }
 
-    public void setAltezza(String altezza) {
-        altezza = altezza;
+    public void setAltezza(double altezza) {
+        this.altezza = altezza;
     }
+    public double getArea() {
+        return larghezza * altezza;
+      }
+      public double getPerimetro() {
+        return 2 * (larghezza + altezza);
+}
 }
