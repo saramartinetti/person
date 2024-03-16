@@ -5,7 +5,7 @@ public class Es4_circle {
         
         Circle c1 = new Circle(10f);
 
-        System.out.println("raggio cerchio ");
+        System.out.println();
         System.out.println("area cerchio " + c1.getArea());
         System.out.println("circonferenza cerchio " + c1.getCirconferenza());
 
