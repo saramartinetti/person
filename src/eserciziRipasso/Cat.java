@@ -2,51 +2,27 @@ package eserciziRipasso;
 
 public class Cat {
 
-    private String nome;
-    private String razza;
+    public String name;
+    public String breed;
 
-    public Cat(String nome, String string) {
-        this.nome = nome;
-        this.razza = razza;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Cat(String name, String breed) {
+        this.name = name;
+        this.breed = breed;
     }
 
-    public void setRazza(String razza) {
-        this.razza = razza;
+    public String getName() {
+        return name;
     }
 
-    public String getNome() {
-        return nome;
+    public String getBreed() {
+        return breed;
     }
 
-    public String getRazza() {
-        return razza;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    @Override
-    public String toString() {
-        return "Cat [nome=" + nome + ", razza=" + razza + "]";
+    public void setBreed(String breed) {
+        this.breed = breed;
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Cat other = (Cat) obj;
-        if (nome == null) {
-            if (other.nome != null)
-                return false;
-        } else if (!nome.equals(other.nome))
-            return false;
-        if (razza != other.razza)
-            return false;
-        return true;
-    }
-    
 }
