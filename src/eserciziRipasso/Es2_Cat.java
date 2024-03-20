@@ -12,6 +12,6 @@ public class Es2_Cat {
     System.out.println();
     cat1.setBreed("Main Coon");
     cat2.setName("Ramiro");
-
+    
 }
 }

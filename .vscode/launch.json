@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Es5_book",
+            "request": "launch",
+            "mainClass": "eserciziRipasso.Es5_book",
+            "projectName": "person-3_daa42e8f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Es1_person",
+            "request": "launch",
+            "mainClass": "eserciziRipasso.Es1_person",
+            "projectName": "person-3_daa42e8f"
+        },
+        {
+            "type": "java",
+            "name": "Es2_Cat",
+            "request": "launch",
+            "mainClass": "eserciziRipasso.Es2_Cat",
+            "projectName": "person-3_daa42e8f"
+        },
+        {
+            "type": "java",
+            "name": "Es3_rec",
+            "request": "launch",
+            "mainClass": "eserciziRipasso.Es3_rec",
+            "projectName": "person-3_daa42e8f"
+        },
+        {
+            "type": "java",
+            "name": "Es4_circle",
+            "request": "launch",
+            "mainClass": "eserciziRipasso.Es4_circle",
+            "projectName": "person-3_daa42e8f"
+        }
+    ]
+}
