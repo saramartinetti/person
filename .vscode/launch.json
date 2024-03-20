@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "esRipassoEredit.Main",
+            "projectName": "person-3_daa42e8f"
+        },
+        {
+            "type": "java",
             "name": "Es5_book",
             "request": "launch",
             "mainClass": "eserciziRipasso.Es5_book",
