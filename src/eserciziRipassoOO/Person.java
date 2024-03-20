@@ -1,4 +1,4 @@
-package eserciziRipasso;
+package eserciziRipassoOO;
 
 public class Person {
 

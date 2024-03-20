@@ -1,4 +1,4 @@
-package eserciziRipasso;
+package eserciziRipassoOO;
 
 public class Es2_Cat {
     public static void main(String[] args) {

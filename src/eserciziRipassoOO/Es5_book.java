@@ -1,4 +1,4 @@
-package eserciziRipasso;
+package eserciziRipassoOO;
 
 public class Es5_book {
     public static void main(String[] args) {
